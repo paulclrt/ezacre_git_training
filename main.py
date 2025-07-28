@@ -1,4 +1,4 @@
 import os
 
-var = os.getenv("var")
+var = os.getenv("var", "")
 print(var)
