@@ -1,4 +1,5 @@
 import os
+import myfile
 import monfichier
 
 var = os.getenv("var", "")
@@ -9,3 +10,6 @@ if var == "":
 monfichier.hello()
 
 print(var)
+
+myfile.pretty()
+
