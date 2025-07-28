@@ -4,7 +4,7 @@ import monfichier
 
 var = os.getenv("var", "")
 if var == "":
-    print("ERROR: env var 'var' is not defined")
+    print("test123")
     exit(1)
 
 monfichier.hello()
@@ -12,4 +12,6 @@ monfichier.hello()
 print(var)
 
 myfile.pretty()
+
+print("test")
 
